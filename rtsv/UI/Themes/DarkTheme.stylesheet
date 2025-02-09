@@ -1,0 +1,218 @@
+QWidget {
+  background-color: #19232d;
+  border-color: #455364;
+}
+QMenuBar{
+	background-color: #19232d;
+	color: #fff;
+	border-color: #051a39;
+}
+QLabel {
+  color: #e0e1e3;
+  font-weight: 600;
+}
+QLabel::disabled {
+	color: #999999;
+}
+
+QLineEdit {
+  color: #e0e1e3;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #455364;
+  padding: 5px 15px;
+}
+QLineEdit:focus {
+  border: 1px solid #455364;
+}
+QLineEdit::placeholder {
+  color: #e0e1e3;
+}
+QLineEdit::disabled {
+	color: #999999;
+}
+
+QPushButton {
+  background-color: #2c3e4f;
+  color: #e0e1e3;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #455364;
+  padding: 5px 15px;
+  margin-top: 10px;
+  outline: 0px;
+}
+QPushButton:hover, QPushButton:focus {
+  background-color: #3f5870;
+  border: 3px solid #2c3e4f;
+}
+
+QSpinBox, QDoubleSpinBox {
+  background-color: #19232d;
+  border-radius: 3px;
+  border: 1px solid #455364;
+  padding: 2px;
+  color: #e0e1e3;
+  font-weight: 600;
+}
+QSpinBox::disabled, QDoubleSpinBox::disabled {
+	color: #999999;
+}
+
+QGroupBox {
+  color: #e0e1e3;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #455364;
+  padding: 5px 7px;
+  margin-top: 10px;
+}
+QGroupBox::title{
+  padding: 0px 8px;
+  subcontrol-origin: margin;
+}
+QGroupBox:indicator {
+  border: 1px solid #455364;
+}
+QGroupBox:indicator:checked {
+  background-image: url(./cratonml_gui/UI/Themes/images/dark/check_mark.png);
+}
+QGroupBox::title::disabled {
+	color: #999999;
+}
+QGroupBox::indicator::checked::disabled {
+  background-image: url(./cratonml_gui/UI/Themes/images/dark/check-mark-disable.png);
+}
+
+QScrollArea {
+  border-radius: 8px;
+  border: 1px solid #455364;
+}
+QScrollBar {
+  background-color: #19232d;
+  border-radius: 4px;
+  border: 1px solid #37414f;
+  margin: 15px 1px 15px 1px;
+}
+QScrollBar::handle{
+    background: #3f5870;
+    border-radius: 4px;
+    border: 1px solid #37414f;
+    min-height: 5px;
+}
+QScrollBar::add-line {
+    background-color: #19232d;
+    margin: 1px 0px 1px 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+    height: 10px;
+    width: 10px;
+    background-image: url(./cratonml_gui/UI/Themes/images/dark/down-arrow.png);
+}
+QScrollBar::sub-line {
+    background-color: #19232d;
+    margin: 1px 0px 1px 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+    height: 10px;
+    width: 10px;
+    background-image: url(./cratonml_gui/UI/Themes/images/dark/up-arrow.png);
+}
+QScrollBar::add-line:disable {
+    background-image: url(./cratonml_gui/UI/Themes/images/dark/down-arrow.png);
+}
+QScrollBar::sub-line:disable {
+    background-image: url(./cratonml_gui/UI/Themes/images/dark/up-arrow.png);
+}
+QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:vertical:on {
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on {
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+}
+
+QTabBar::tab {
+  background-color: #37414f;
+  color: #e0e1e3;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #455364;
+  font-weight: 600;
+}
+QTabBar::tab:selected {
+  background-color: #455364;
+  border: 1px solid #455364;
+}
+QTabWidget::pane{
+  background-color: #19232d;
+  border-radius: 4px;
+  border: 1px solid #455364;
+}
+
+QCheckBox {
+  color: #e0e1e3;
+  font-weight: 600;
+}
+QCheckBox::indicator {
+  border: 1px solid #455364;
+}
+QCheckBox::indicator:checked {
+  background-image: url(./cratonml_gui/UI/Themes/images/dark/check_mark.png);
+}
+QCheckBox::indicator::checked::disabled {
+  background-image: url(./cratonml_gui/UI/Themes/images/dark/check-mark-disable.png);
+}
+QCheckBox::disabled {
+	color: #999999;
+}
+
+QListWidget {
+  color: #e0e1e3;
+  font-weight: 600;
+  border-radius: 2px;
+  border: 1px solid #455364;
+}
+QListWidget::disabled {
+	color: #999999;
+}
+
+QComboBox {
+  color: #e0e1e3;
+  font-weight: 600;
+  border-radius: 2px;
+  border: 1px solid #455364;
+}
+QComboBox QAbstractItemView{
+    color: #e0e1e3;
+}
+QComboBox::disabled {
+	color: #999999;
+}
+
+QPlainTextEdit {
+  border-radius: 3px;
+  border: 1px solid #455364;
+}
+QPlainTextEdit::disabled {
+	color: #999999;
+}
+
+QProgressBar {
+  color: #e0e1e3;
+  font-weight: 700;
+  border: 1px solid #455364;
+  border-radius: 4px;
+  text-align: center;
+}
+QProgressBar:chunk {
+ background-color: #26486b;
+}

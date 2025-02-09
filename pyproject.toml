@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "rtsv"
+version = "1.0.0"
+description = "GUI for real-time signal vizualization"
+authors = ["gasng <kamashev41@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+pyside6 = "^6.8.0.2"
+pyqtgraph = "^0.13.7"
+numpy = "^2.1.3"
+pyinstaller = "^6.11.0"
+matplotlib = "^3.10.0"
+notebook = "6"
+obspy = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+RTSV = 'rtsv.main:main'
+build = 'rtsv.pyinstaller:install'
